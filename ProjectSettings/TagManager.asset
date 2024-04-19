@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Challange
   - Hole
+  - Tile
   layers:
   - Default
   - TransparentFX
