@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
     private Dictionary<GameObject, int> playerScores = new Dictionary<GameObject, int>();
+    private int currentPlayerIndex = 0;  // Index pour suivre quel joueur est en train de tirer
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     void StartRound()
     {
+        currentPlayerIndex = 0;  // Commence avec le premier joueur
         StartCoroutine(RoundRoutine());
     }
 
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
         foreach (var player in players)
         {
             yield return StartCoroutine(PlayerShoot(player));
+            currentPlayerIndex++;  // Passer au joueur suivant après chaque tir
         }
         EvaluateCollisions();  // Évaluer les collisions après que tous les joueurs ont tiré
         EndRound();
@@ -39,22 +42,13 @@ public class GameManager : MonoBehaviour
     IEnumerator PlayerShoot(GameObject player)
     {
         PlayerController controller = player.GetComponent<PlayerController>();
-        controller.ResetCollisionFlags();  // Réinitialiser les drapeaux avant le tir
+        controller.EnablePlayerControl(true);  // Activer le contrôle pour le joueur actuel
+        Debug.Log(player.name + " is ready to shoot. Press Space to shoot.");
 
-        KeyCode shootKey = player == players[0] ? KeyCode.Q : KeyCode.W;
-        bool hasShot = false;
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space)); // Attendre que la touche espace soit pressée
 
-        Debug.Log(player.name + " is ready to shoot. Press " + shootKey + " to shoot.");
-
-        while (!hasShot)
-        {
-            if (Input.GetKeyDown(shootKey))
-            {
-                Debug.Log(player.name + " has shot the ball!");
-                hasShot = true;
-            }
-            yield return null;
-        }
+        Debug.Log(player.name + " has shot the ball!");
+        controller.EnablePlayerControl(false);  // Désactiver le contrôle après le tir
     }
 
     void EvaluateCollisions()

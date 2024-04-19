@@ -4,6 +4,43 @@ public class PlayerController : MonoBehaviour
 {
     public bool isOnHole = false;
     public bool isOnTile = false;
+    public float shootForce = 200f;
+    public float friction = 0.1f;
+    private Rigidbody2D rb;
+    private bool canControl = false; // Contrôle si le joueur peut agir
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        if (canControl && Input.GetKeyDown(KeyCode.Space))
+        {
+            Shoot();
+        }
+
+        ApplyFriction();
+    }
+
+    public void EnablePlayerControl(bool enable)
+    {
+        canControl = enable;
+    }
+
+    private void Shoot()
+    {
+        rb.velocity = Vector2.up * shootForce; // Applique une force pour "tirer" le joueur vers le haut
+    }
+
+    private void ApplyFriction()
+    {
+        if (rb.velocity.magnitude > 0)
+        {
+            rb.velocity -= rb.velocity.normalized * friction * Time.deltaTime; // Applique la friction
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
