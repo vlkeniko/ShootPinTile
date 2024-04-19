@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: dc7404dc10c2e33438aebd5d2515f12f
+  productGUID: ed37bb9b9ead4a14f878ae832521ba91
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Shootspintile
+  productName: ShootPinTile2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -629,14 +629,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Shootspintile
+  metroPackageName: ShootPinTile2
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Shootspintile
+  metroApplicationDescription: ShootPinTile2
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -704,10 +704,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 92d88fc2-4048-40b3-8d87-680b7722be07
+  cloudProjectId: b731d6bc-80f9-4339-b3ab-156d1c80f592
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Shootspintile
+  projectName: ShootPinTile2
   organizationId: vlkeniko
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
