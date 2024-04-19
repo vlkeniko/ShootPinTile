@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236,6 +240,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -422,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -443,7 +455,7 @@ GameObject:
   - component: {fileID: 504397584}
   m_Layer: 0
   m_Name: Challenges
-  m_TagString: Untagged
+  m_TagString: Challange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -625,6 +637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -635,6 +651,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5234276498497607688, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
   m_PrefabInstance: {fileID: 524923001}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &530443956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 530443958}
+  - component: {fileID: 530443957}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &530443957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530443956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a2ccaf24e2a2146aeefefb1de1fd29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiSquarePrefab: {fileID: 3877175654050994186, guid: 62f60d9b41b0f1741869787113a106e6, type: 3}
+--- !u!4 &530443958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530443956}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4262533, y: -1.1983546, z: -0.034541063}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &598133180
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,6 +788,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -912,6 +977,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1221,6 +1290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1231,6 +1304,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5234276498497607688, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
   m_PrefabInstance: {fileID: 833312377}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1010791235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 828049482999361282, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913163680395754391, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001540007440475090, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4913163680395754391, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1010791237}
+    - targetCorrespondingSourceObject: {fileID: 4913163680395754391, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1010791242}
+  m_SourcePrefab: {fileID: 100100000, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+--- !u!1 &1010791236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4913163680395754391, guid: fd691341e6807e946a80851b07b31ac7, type: 3}
+  m_PrefabInstance: {fileID: 1010791235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1010791237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010791236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1675ccf0265c44884f8534fd63f714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  names:
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+--- !u!58 &1010791242
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010791236}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1001 &1025547735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1354,6 +1556,74 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0.05
+--- !u!1 &1052644376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052644379}
+  - component: {fileID: 1052644378}
+  - component: {fileID: 1052644377}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1052644377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052644376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1052644378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052644376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1052644379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052644376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1065494976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1405,6 +1675,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1591,6 +1865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1652,6 +1930,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1715,6 +1997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1777,6 +2063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1838,6 +2128,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2147,6 +2441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2331,6 +2629,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2517,6 +2819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2578,6 +2884,10 @@ PrefabInstance:
     - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
       propertyPath: m_Name
       value: Challenge (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2698,6 +3008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Challenge
       objectReference: {fileID: 0}
+    - target: {fileID: 8634256009440859296, guid: c7241400616a4e94f9e50298bd5d4e05, type: 3}
+      propertyPath: m_TagString
+      value: Challange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2716,3 +3030,6 @@ SceneRoots:
   - {fileID: 504397584}
   - {fileID: 598133181}
   - {fileID: 2224577677764316766}
+  - {fileID: 1010791235}
+  - {fileID: 530443958}
+  - {fileID: 1052644379}
